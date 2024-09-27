@@ -24,6 +24,15 @@ else {
     mensagem = "Passou do Limite "
 }
 
+const percentual = (valor1 * 0.10) / valor2
+
+
+if ((percentual >  10) && (percentual == 10)){
+    
+}
+
+
+
 //SAIDA
 
 const divRoot = document.getElementById("root")
