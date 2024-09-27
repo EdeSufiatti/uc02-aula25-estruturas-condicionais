@@ -27,10 +27,11 @@ else {
 const percentual = (valor1 * 0.10) / valor2
 
 
-if ((percentual >  10) && (percentual == 10)){
-    
+if (percentual >= 10) {
+    mensagem = "Percentual ok "
+} else {
+    mensagem = "Percentual Alterado"
 }
-
 
 
 //SAIDA
